@@ -4,6 +4,19 @@ Xboard简约用户端界面主题achen，后台上传即可。
 ![图片2](https://cfbed.1314883.xyz/file/1792538297490_f8510b720c6c3cedc586bcc512815d44.webp)
 ![图片3](https://cfbed.1314883.xyz/file/1792538304876_ca6ec1dabee9a3881f55aa6c4e0420a9.webp)
 
+
+### 1.4.2
+
+发布日期：2026-10-22
+
+#### 修复 Hiddify（Hiddity）导入报「意外链接」
+
+- 原因：Hiddify 官方现行深链为 `hiddify://import/<订阅链接>#<配置名>`，其中订阅链接必须是**原始链接，不能 URL 编码**；此前使用了 `encodeURIComponent`，App 无法解析导致「意外链接 / unexpected link」。
+- 修复：Hiddity 改为 `hiddify://import/{原始订阅链接}#{站点名}`，配置名取后台站点标题（缺省 achen），在 App 内会作为配置文件名显示。
+- 其余客户端（Clash、V2rayN、Shadowrocket）保持 `?url=` / 路径式编码格式，与各自主流实现一致；失败时仍会自动复制订阅链接供手动导入。
+
+---
+
 ### 1.4.0
 
 发布日期：2026-10-22
