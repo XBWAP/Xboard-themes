@@ -1,7 +1,7 @@
 # Xboard-themes
 Xboard简约用户端界面主题achen，后台上传即可。
 ![图片1](3bbbb007b0633392bccb8b99b098a479.png)
-![图片2](https://cfbed.1314883.xyz/file/1792538297490_f8510b720c6c3cedc586bcc512815d44.webp)
+![图片2](5846ab616089e7bc89d35d0cbb6ea386.png)
 ![图片3](https://cfbed.1314883.xyz/file/1792538304876_ca6ec1dabee9a3881f55aa6c4e0420a9.webp)
 
 
